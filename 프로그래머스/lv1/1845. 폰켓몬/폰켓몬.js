@@ -1,6 +1,6 @@
 function solution(nums) {
   const maxKind = nums.length / 2;
-  let poketmonsMap = new Set(nums);
+  let poketmonsSet = new Set(nums);
 
-  return poketmonsMap.size > maxKind ? maxKind : poketmonsMap.size;
+  return poketmonsSet.size > maxKind ? maxKind : poketmonsSet.size;
 }
